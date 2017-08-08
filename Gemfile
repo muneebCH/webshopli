@@ -15,7 +15,10 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 # 12 factors
 gem 'rails_12factor', group: :production
+#add bootstrap
+gem 'bootstrap-sass'
 # Use Puma as the app server
+
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
